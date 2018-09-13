@@ -115,6 +115,29 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+#upload {
+  display: inline-block;
+  border-radius: 30px;
+  background-color: #3b99d9;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  color: #3b99d9;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+
+  position: relative;
+  left: 0px;
+  right: -19px;
+  overflow: auto;
+  margin-top: 222px;
+  margin-right: 12px;
+  margin-bottom: -10px;
+  clear: left;
+
+}
 /**
  * Address styling not present in IE 8/9.
  */

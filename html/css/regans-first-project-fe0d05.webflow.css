@@ -159,7 +159,7 @@ blockquote {
   padding-bottom: 7px;
   font-family: Montserrat, sans-serif;
   color: silver;
-  font-size: 12px;
+  font-size: 24px;
   line-height: 18px;
   letter-spacing: 1px;
 }
@@ -241,8 +241,9 @@ blockquote {
 
 .section {
   position: relative;
+
   display: block;
-  margin-top: -14px;
+  margin-top: 50px;
   margin-bottom: 230px;
   padding-bottom: 30px;
   background-color: #fff;
@@ -525,9 +526,9 @@ blockquote {
 }
 
 .social-icon-link {
-  margin-right: 2px;
-  margin-left: 2px;
-  padding: 3px;
+  margin-right: 4px;
+  margin-left: 4px;
+  padding: 4px;
   opacity: 0.87;
   -webkit-transition: opacity 300ms ease;
   transition: opacity 300ms ease;
@@ -901,12 +902,16 @@ blockquote {
   left: 79px;
   right: -9px;
   overflow: auto;
-  margin-top: 7px;
+  margin-top: 0px;
   margin-right: 12px;
   margin-bottom: -1px;
-  padding: 32px 6px 0px 5px;
+  padding: 6px 6px 6px 6px;
   float: left;
   clear: left;
+
+
+  border: 20px solid #ba6a62;
+
 }
 
 .text-block {
@@ -929,7 +934,7 @@ blockquote {
 
 .text-block-3 {
   position: relative;
-  left: 289px;
+  left: 140px;
   top: 61px;
   right: -191px;
   bottom: 23px;
@@ -967,91 +972,83 @@ blockquote {
   border-color: #d39f9a;
 }
 
-.text-block-4 {
-  position: relative;
-  top: -377px;
-  right: -308px;
-  display: block;
-  margin-right: 777px;
-  margin-left: 121px;
-  border: 2px solid #d39f9a;
-}
-
 .body {
   border: 1px solid #d39f9a;
 }
 
 .text-block-5 {
   position: relative;
+  font-size: 20px;
+  font-weight:bold;
   top: -402px;
-  right: 64px;
+  right: 35px;
   margin-top: -145px;
   margin-right: 795px;
   margin-left: 116px;
   padding-top: 0px;
   padding-right: 0px;
   padding-left: 2px;
-  border: 2px solid #d39f9a;
 }
 
 .text-block-6 {
   position: relative;
-  left: 122px;
+  font-size: 20px;
+  font-weight: bold;
+  left: 180px;
   top: -241px;
-  right: -92px;
+  right: 0px;
   margin-right: 781px;
   margin-left: 137px;
-  border: 2px solid #d39f9a;
+
 }
 
 .text-block-7 {
   position: relative;
-  left: 478px;
+  font-size: 20px;
+  font-weight: bold;
+  left: 850px;
   top: -262px;
-  right: -258px;
+  right: -1000px;
   bottom: 106px;
-  margin-right: 750px;
-  margin-left: 151px;
-  border: 2px solid #d39f9a;
+
 }
 
 .text-block-8 {
+  font-size: 20px;
+  font-weight: bold;
   position: relative;
   top: -471px;
-  right: -758px;
-  margin-right: 808px;
-  margin-left: 78px;
-  border: 2px solid #d39f9a;
+  right: -1050px;
 }
 
 .image-2 {
   position: relative;
   top: -453px;
-  right: -45px;
+  right: -100px;
 }
 
 .image-3 {
   position: relative;
   top: -491px;
-  right: -109px;
+  right: -200px;
 }
 
 .image-4 {
   position: relative;
   top: -462px;
-  right: -170px;
+  right: -350px;
 }
 
 .image-5 {
   position: relative;
   top: -489px;
-  right: -248px;
+  right: -500px;
 }
 
 .image-6 {
   position: relative;
   top: -469px;
-  right: -339px;
+  right: -600px;
   bottom: 19px;
 }
 
@@ -1063,12 +1060,13 @@ blockquote {
 
 .text-block-9 {
   position: relative;
+  font-size: 20px;
+  font-weight: bold;
   top: -652px;
-  right: -266px;
+  right: -430px;
   margin-right: 750px;
   margin-left: 146px;
   padding-left: 0px;
-  border: 2px solid #d39f9a;
 }
 
 html.w-mod-js *[data-ix="fade-in-bottom-page-loads"] {
@@ -1173,7 +1171,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
 @media (max-width: 767px) {
   .navigation-bar {
     z-index: 1000;
-    padding-top: 24px;
+    padding-top: 20px;
     padding-bottom: 24px;
   }
   .hamburger-button {
@@ -1231,4 +1229,3 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     padding-bottom: 40px;
   }
 }
-
