@@ -18,6 +18,22 @@ html {
 body {
   margin: 0;
 }
+#dragInside {
+  position: relative;
+}
+#btn {
+position: relative;
+left: 420px;
+right: -9px;
+overflow: auto;
+margin-top: 10px;
+margin-right: 12px;
+margin-bottom: -1px;
+padding: 6px 6px 6px 6px;
+float: left;
+clear: left;
+border: 5px solid #ba6a62;
+}
 /* HTML5 display definitions
    ========================================================================== */
 /**
